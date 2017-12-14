@@ -35,15 +35,23 @@
 	color: black;
 	margin-top: 15px;
 }
+.btn-o{
+	background-color: rgb(247,182,23);
+	color: white;
+}
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
 	padding-right: 0;
 	padding-left: 0;
+	margin-top: 0;
 }
 .principalSS {
 	padding-top: 10px;
 	padding-right: 5px;
 	color: white;
 	background-color: rgb(247,182,23);
+}
+.principalTS {
+	color: white;
 }
 .square {
 	padding: 5px;
@@ -54,4 +62,124 @@
 
 .left {
 	margin-left: 10px;
+}
+
+.img-background2 {
+	box-sizing: border-box;
+	padding: 50px;
+	background-image: url("../assets/images/conduce.jpg");
+	background-size: cover;
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 350px;
+	box-sizing: border-box;
+	/* filter: brightness(0.50); */
+}
+.principalTS h3{
+	line-height: 40px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.fourSection{
+	background-color: rgb(247,182,23);
+	padding-top: 20px;
+	padding-left: 10px;
+	color: white;
+}
+.form-control{
+	width: 70%;
+	display: inline-block;
+	background-color: rgb(247,182,23);
+	color: white;
+	border: 1px white solid;
+}
+.form-control::placeholder {
+	color: white;
+}
+.barsearch{
+	margin-bottom: 10px;
+}
+.icontar{
+	margin-right: 10px;
+}
+.mapview {
+	margin: 10px 1%;
+	width: 95%;
+	height: 300px;
+	border: 0;
+}
+.footerSection{
+	box-sizing: border-box;
+	padding: 10px;
+	background-color: #2B2B2B;
+	color: white;
+}
+.footerSection hr{
+	width: 95%;
+	border: 1px solid white;
+	margin: 5px;
+}
+.footerSection .logo{
+	height: 20px;
+	margin:0;
+}
+
+.items a{
+	display: block;
+	margin: 5px;
+}
+.social a, .items a{
+	color: white;
+}
+.social a{
+	margin: 5px;
+}
+
+@media only screen and (max-width: 768px){
+	/* mobile view */
+	/* esto es del footer */
+	.footerSection{
+		height: 400px;
+	}
+	.items{
+		float: left;
+	}
+	.social {
+		margin-right: 50px;
+		float: right;
+	}
+	.buttonMedia{
+	float: right;
+	width: 140px;
+	margin: 20px;
+	margin-right: 10%;
+	}
+	.buttonMedia img{
+		width: 140px;
+		margin-bottom: 10px;
+	}
+}
+@media only screen and (min-width: 992px){
+	/* desktop view */
+	/* esto es del footer */
+	.footerSection{
+	height: 300px;
+	}
+	.items{
+		float: left;
+	}
+	.social {
+		float: left;
+	}
+	.buttonMedia{
+	float: right;
+	width: 140px;
+	margin: 20px;
+	margin-right: 5%;
+	}
+	.buttonMedia img{
+		width: 140px;
+		margin-bottom: 10px;
+	}
 }
