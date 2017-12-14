@@ -368,3 +368,18 @@
 .btnmargin{
 	margin-top:5px;
 }
+/* modal conductor */
+.modalConductor{
+	padding: 20px;
+}
+.modalConductor p{
+	margin-top: 20px;
+}
+.btnSend{
+	margin-top: 20px;
+}
+.headerModal{
+	margin-bottom: 0;
+	padding-bottom: 0;
+	height: 5px;
+}
