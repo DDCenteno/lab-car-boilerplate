@@ -33,11 +33,48 @@
 				      <ul class="nav navbar-nav navbar-right">
 				        <li><a href="#">Viaja <span class="sr-only">(current)</span></a></li>
 				        <li><a href="#">Conduce</a></li>
-				        <li><a href="#">Iniciar Sesión</a></li>
+				        <!-- Insertar modal en un ancord -->
+				        <li><a href="#" data-toggle="modal" data-target="#myModal">Iniciar Sesión</a></li>
 				      </ul>
 				    </div>
 				  </div>
 				</nav>
+				<!-- Modal de la sesion -->
+				<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				  <div class="modal-dialog" role="document">
+				    <div class="modal-content modalColor">
+				      <div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				        <h4 class="modal-title" id="myModalLabel">
+				        	<img class="modalUser center-block" src="assets/images/user.png" alt="User image">
+				        </h4>
+				      </div>
+				      <div class="modal-body">
+				        <div class="userForm center-block">
+				        	<!-- input del username -->
+				        	<div class="input-group input-group-sm usermodal">
+							  <span class="input-group-addon" id="sizing-addon3"><i class="glyphicon glyphicon-user"></i></span>
+							  <input type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon3">
+							</div>
+							<!-- input password -->
+							<div class="input-group input-group-sm passwordmodal">
+							  <span class="input-group-addon" id="sizing-addon3"><i class="glyphicon glyphicon-lock"></i></span>
+							  <input type="password" class="form-control" placeholder="password" aria-describedby="sizing-addon3">
+							</div>
+							<button class="btn btn-o center-block btnmodal">LOGING</button>
+							<p class="nomargin">Forgot password? <a class="text-danger redText" href="#">Click Here</a></p>
+				        </div>
+				      </div>
+				      <!-- esto es el footer 
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				        <button type="button" class="btn btn-primary">Save changes</button>
+				      </div>
+				  -->
+				    </div>
+				  </div>
+				</div>
+				<!-- aca muere el modal :v -->
 		</section>
   		</div>
 
@@ -45,20 +82,44 @@
 			<div class="col-md-12 col-xs-12">
 				<div class="img-background">
 					<form class="form">
-						<h2 class="text-left">Comienza a viajar con<img src="assets/images/logoBlanco.png" alt="LogoBlanco" class="LB"></h2>
-						<button class="btn btn-lg btn-w">Descarga el app</button>
+						<h2 class="text-left hideObjectdesk">Comienza a viajar con<img src="assets/images/logoBlanco.png" alt="LogoBlanco" class="LB hideObjectdesk"></h2>
+						<button class="btn btn-lg btn-w hideObjectdesk">Descarga el app</button>
+						<div class="showDiv hideObject">
+							<h4 class="text-left hideObject">Disfruta del viaje <p class="hideObject">Eres dueño de tu tiempo<p></h4>
+							<h5 class="hideObject">viaja con <img src="assets/images/logoBlanco.png" alt="LogoBlanco" class="LB hideObject"></h3>
+							<button type="button" class="btn btn-w hideObject" data-toggle="modal" data-target="#myModal2" data-backdrop="false">REGISTRATE</button>
+
+							<!-- modal de registro -->
+								<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								  <div class="modal-dialog" role="document">
+								    <div class="modal-content modalColor-gray">
+								      <div class="modal-header withoutLine">
+								        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								      </div>
+								      <h4 class="modal-title titleBlack text-center center-block" id="myModalLabel">Ya tienes una cuenta?</h4>
+								      <div class="modal-body">
+								        <h4 class="text-uppercase text-center">o crea una cuenta nueva</h4>
+								      </div>
+								      <div class="modal-footer">
+								        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								        <button type="button" class="btn btn-primary">Save changes</button>
+								      </div>
+								    </div>
+								  </div>
+								</div>
+							<!-- aca muere modal registro -->
+
+						</div>
 						<div class="center-block hideObject showDiv">
-						<div class="hideObject line"></div>
-						<span class="hideObject">O bien</span>
-						<div class="hideObject lineTwo"></div>
+							<div class="hideObject line"></div>
+							<span class="hideObject">O bien</span>
+							<div class="hideObject lineTwo"></div>
 						</div>
 						<button class="btn btn-w hideObject">Conviértete en un conductor</button>
-						
 					</form>
 				</div>
 			</div>
 		</section>
-
 		<section class="row secondSection">
 			<div class="principalSS col-md-12 col-xs-12">
 				<div class="square">
@@ -96,8 +157,8 @@
 				<div class="leftDesktop">
 				<h3>Tarifas</h3>
 				<p>Consulta las tarifas LabCar aquí</p>
-				<div class="barsearch"><span class="icontar glyphicon glyphicon-record"></span><input type="text" class="form-control" placeholder="Lima, San miguel, Miraflores, San Borja, Ventanilla, San juan de Miraflores, Villa el Salvador..."></div>
-				<div class="barsearch"><span class="icontar glyphicon glyphicon-send"></span><input type="text" class="form-control" placeholder="Lima, San miguel, Miraflores, San Borja, Ventanilla, San juan de Miraflores, Villa el Salvador..."></div>
+				<div class="barsearch"><span class="icontar glyphicon glyphicon-record"></span><input type="text" class="form-control formstyle" placeholder="Lima, San miguel, Miraflores, San Borja, Ventanilla, San juan de Miraflores, Villa el Salvador..."></div>
+				<div class="barsearch"><span class="icontar glyphicon glyphicon-send"></span><input type="text" class="form-control formstyle" placeholder="Lima, San miguel, Miraflores, San Borja, Ventanilla, San juan de Miraflores, Villa el Salvador..."></div>
 				<button class="btn btn-w center-block">¡TRAZAR RUTA!</button>
 				</div>
 				<iframe class="mapview" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15605.731994838608!2d-77.0852146!3d-12.0824819!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spe!4v1513205591449" allowfullscreen></iframe>
@@ -143,6 +204,9 @@
 			</footer>
 		</section>
 	<!-- jquery y js de booststrap -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	<!-- lo anterior es solo una prueba -->
 	<script src="js/jquery-3.2.1.js"></script>
 	<script src="vendors/bootstrap/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 	<script src="js/app.js"></script>

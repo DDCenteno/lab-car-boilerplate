@@ -1,6 +1,7 @@
 /* Los estilos de tu proyecto */
 .body {
 	font-family: 'Raleway', sans-serif;
+	padding-right: 0;
 }
 .navbar {
 	background-color: white;
@@ -18,9 +19,9 @@
 	margin-top: 150px;
 }
 .LB {
-	height: 20px;
-	width: 70px;
-	margin-left: 15px
+	height: 15px;
+	width: 60px;
+	margin-left: 10px
 }
 .img-background {
 	background-image: url("../assets/images/taxi.jpg");
@@ -87,14 +88,14 @@
 	padding-left: 10px;
 	color: white;
 }
-.form-control{
+.formstyle{
 	width: 70%;
 	display: inline-block;
 	background-color: rgb(247,182,23);
 	color: white;
 	border: 1px white solid;
 }
-.form-control::placeholder {
+.formstyle::placeholder {
 	color: white;
 }
 .barsearch{
@@ -142,7 +143,7 @@
 
 	/* esto es del footer */
 	.footerSection{
-		height: 300px;
+		height: auto;
 	}
 	.items{
 		float: left;
@@ -170,6 +171,9 @@
 }
 @media only screen and (min-width: 992px){
 	/* desktop view */
+	.hideObjectdesk{
+		display: none;
+	}
 	/* primera section */
 	.showObject{
 		display: block;
@@ -251,7 +255,7 @@
 	.fourSection{
 		padding: 50px;
 	}
-	.form-control{
+	.formstyle{
 		width: 50%;
 		margin-left: 30px;
 	}
@@ -273,7 +277,7 @@
 	}
 	/* esto es del footer */
 	.footerSection{
-	height: 300px;
+	height: auto;
 	}
 	.items{
 		float: left;
@@ -302,4 +306,39 @@
 		margin-bottom: 10px;
 	}
 	
+}
+/* Modal Sesion Styles */
+.modalColor-gray{
+	background-color: #a9a9a9;
+}
+.modalColor{
+	background-color: #08ac9d;
+}
+.modalUser{
+	width: 150px;
+	height: 150px;
+}
+.userForm{
+	border-radius: 5px;
+	padding: 5px;
+	width: 50%;
+	background-color: #f5f5f5;
+	height: 210px;
+}
+.usermodal, .passwordmodal{
+  margin: 20px 20px;
+}
+.btnmodal{
+	margin-bottom: 10px;
+}
+/* Modal Register Style */
+.titleBlack{
+	background-color: black;
+	color: white;
+	width: 70%;
+	border-radius: 5px;
+	padding: 5px;
+}
+.withoutLine{
+	border-bottom: 0;
 }
