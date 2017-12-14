@@ -342,3 +342,29 @@
 .withoutLine{
 	border-bottom: 0;
 }
+.darkColor{
+	color: black;
+}
+.formRegister{
+	width: 100%;
+	display: inline-block;
+}
+.widthChangeOne{
+	width: 48%;
+	float: left;
+}
+.widthChangeTwo{
+	width: 48%;
+	float: right;
+}
+.nameLastName{
+	height: 40px;
+	width: 100%;
+}
+.formRegister input{
+	margin-bottom: 5px;
+	margin-left: 1px;
+}
+.btnmargin{
+	margin-top:5px;
+}
