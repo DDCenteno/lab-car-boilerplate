@@ -159,9 +159,46 @@
 		width: 140px;
 		margin-bottom: 10px;
 	}
+	.hideObject{
+		display: none;
+	}
 }
 @media only screen and (min-width: 992px){
 	/* desktop view */
+	/* primera section */
+	.showObject{
+		display: block;
+	}
+	.showDiv {
+		padding:10px;
+		width: 100%;
+		display: inline-block;
+	}
+	.line {
+		margin-top: 10px;
+		float: left;
+		height: 1px;
+		width: 35%;
+		background-color: white;
+		margin-right:20px;
+	}
+	.lineTwo{
+		margin-top: 10px;
+		float: right;
+		height: 1px;
+		width: 35%;
+		background-color: white;
+	}
+	.form{
+		margin-top: 100px;
+		height: 280px;
+	}
+	.form hr{
+		margin-top: 10px;
+		width: 40%;
+		display: inline-block;
+	}
+
 	/* esto es del footer */
 	.footerSection{
 	height: 300px;
