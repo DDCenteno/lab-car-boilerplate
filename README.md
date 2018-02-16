@@ -2,7 +2,7 @@
 ___
 LabCar es una pagina web donde se toma en practica el framework Bootstrap 3 y agregado de modales, prueba la experiencia y dale click a los siguientes botones: Regístrate, conviértete en conductor, Iniciar Sesión.
 
-![image](https://user-images.githubusercontent.com/30356026/36331420-c415aa34-133b-11e8-96f6-da61ae58054b.png)
+![image](https://user-images.githubusercontent.com/30356026/36332245-764d0820-133f-11e8-91ff-33cdcdbd5850.png)
 
 # Desarrollado para
 
