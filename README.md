@@ -4,7 +4,7 @@ LabCar es una pagina web donde se toma en practica el framework Bootstrap 3 y ag
 
 ![image](https://user-images.githubusercontent.com/30356026/36332245-764d0820-133f-11e8-91ff-33cdcdbd5850.png)
 
-# Desarrollado para
+## Desarrollado para
 
 [Laboratoria](http://www.laboratoria.la/)
 ___
@@ -12,7 +12,7 @@ ___
 * Realización de pagina web en visualizacion desktop y mobile con booststrap 3.
 * Agregado de modales en los siguientes botones: Iniciar Sesión, Registro,Conviertete en Conductor (este se puede ver en ambos botones dentro de la pagina).
 
-**Modales:**
+## **Modales:**
 * Registrate:
 
 ![LabCarParte2](assets/documents/Parte2.PNG)
